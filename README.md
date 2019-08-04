@@ -13,13 +13,13 @@ Dattatray First Hello World Repository
     }, 1000);
 ```
 ```nodejs
-         // Data received handler 
-        ws.on('message', function incoming(data) {
-            var obj = JSON.parse(data);
-            if(obj.service ==="TIME_UPDATE"){
-                console.log(`Received Timestamp Update: Roundtrip Time: ${Date.now() - obj.timestamp} ms`);
-            }else {
-                console.log(`Unknown Service: ${obj.service}`);
-            }
-        });
+     // Data received handler 
+    ws.on('message', function incoming(data) {
+        var obj = JSON.parse(data);
+        if(obj.service ==="TIME_UPDATE"){
+            console.log(`Received Timestamp Update: Roundtrip Time: ${Date.now() - obj.timestamp} ms`);
+        }else {
+            console.log(`Unknown Service: ${obj.service}`);
+        }
+    });
 ```
