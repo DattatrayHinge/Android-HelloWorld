@@ -1,22 +1,2 @@
 # MyAndroidHelloWorld
 Dattatray First Hello World Repository
-```nodjes
-
-{
-  "name": " ",
-  "version": "1.2.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Dattatray Hinge",
-  "license": "ISC",
-  "dependencies": {
-    "ip": "^1.1.5",
-    "ws": "^7.1.1"
-  }
-}
-```
